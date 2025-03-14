@@ -59,15 +59,15 @@ On TBA (and in FIRST's internal systems), each event has a unique identifier (or
 # Getting Data
 ## Event Roster
 
-In a terminal opened to the same location you cloned the repository, run `py3 get_teams.py -e <event_key> -k <api_key> -o roster.csv`, substituting in the event and API keys you got earlier. This will save the event roster to a file `roster.csv` into your current folder.
+In a terminal opened to the same location you cloned the repository, run `py get_teams.py -e <event_key> -k <api_key> -o roster.csv`, substituting in the event and API keys you got earlier. This will save the event roster to a file `roster.csv` into your current folder.
 
-**Note:** If `py3` gave a "command not found" error, try `python3` or `python`.
+**Note:** If `py` gave a "command not found" error, try `python3` or `python`.
 
 ## Event Schedule
 
-In a terminal opened to the same location you cloned the repository, run `py3 get_tba_schedule.py -e <event_key> -k <api_key> -o schedule.csv`, substituting in the event and API keys you got earlier. This will save the event roster to a file `schedule.csv` into your current folder.
+In a terminal opened to the same location you cloned the repository, run `py get_tba_schedule.py -e <event_key> -k <api_key> -o schedule.csv`, substituting in the event and API keys you got earlier. This will save the event roster to a file `schedule.csv` into your current folder.
 
-**Note:** If `py3` gave a "command not found" error, try `python3` or `python`.
+**Note:** If `py` gave a "command not found" error, try `python3` or `python`.
 
 # Adding data to Google Sheets
 
